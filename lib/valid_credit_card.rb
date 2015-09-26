@@ -1,5 +1,18 @@
-require "valid_credit_card/version"
+require "valid_credit_card/credit_card_validator"
 
 module ValidCreditCard
-  # Your code goes here...
+  def self.test_numbers
+    @@test_numbers ||= {
+      amex: %w{ 378282246310005 371449635398431 378734493671000 },
+      diners_club: %w{ 30569309025904 38520000023237 },
+      discover: %w{ 6011000990139424 6011111111111117 },
+      master_card: %w{ 5555555555554444 5105105105105100 },
+      visa: %w{
+        4111111111111111 4012888888881881 4222222222222
+        4005519200000004 4009348888881881 4012000033330026
+        4012000077777777 4217651111111119 4500600000000061
+        4000111111111115 },
+      jcb: %w{ 3530111333300000 3566002020360505 }
+    }.values.flatten
+  end
 end
