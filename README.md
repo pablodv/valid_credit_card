@@ -1,4 +1,6 @@
 # ValidCreditCard
+[![Build Status](https://travis-ci.org/pablodv/valid_credit_card.svg)](https://travis-ci.org/pablodv/valid_credit_card)
+[![Gem Version](https://badge.fury.io/rb/valid_credit_card.svg)](http://badge.fury.io/rb/valid_credit_card)
 
 ActiveModel validation for credit card number.
 
