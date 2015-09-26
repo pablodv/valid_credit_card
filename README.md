@@ -47,6 +47,13 @@ credit_card.is_jbc? => true
 credit_card.card_type? => jbc
 ```
 
+## Requirements
+* Ruby-1.9
+* Ruby-2.0
+* Ruby-2.1
+* Ruby-2.2
+* JRuby-1.9
+
 ## Contributing
 
 1. Fork it
